@@ -1,6 +1,43 @@
 {
-  "main_url": "https://passport.yandex.ru/",
-  "none_existent_login": "test252test",
-  "login": "Test",
-  "none_existent_password": "Test"
+  "main_url": "https://dev.profteam.su/registration",
+
+  "login_fail_number": "test252test",
+  "login_fail_symbol": "test!!",
+  "login_fail_whitespace": "test test",
+  "login_fail_language": "вован",
+  "login_fail_duplicate": "test",
+  "login": "unictest",
+
+  "email": "test1@gmail.com",
+  "email_fail_dublicate": "test@gmail.com",
+  "email_fail_NoDogSymbol": "test11Gmail.com",
+  "email_fail_pointStart": ".test11@gmail.com",
+  "email_fail_pointFinish": "test11@gmail.com.",
+  "email_fail_language": "пользователь11@gmail.ком",
+  "email_fail_withoutName": "@gmail.com.",
+  "email_fail_morePoint": "test11@gmail...com.",
+  "email_fail_moreDogSymbol": "tes@ttt@gmail.com.",
+  "email_fail_symbol": "test1@gma+il.com.",
+
+
+  "password": "Qwe123",
+  "password_fail_lower": "qwe123",
+  "password_fail_upper": "QWE123",
+  "password_fail_symbol": "Qwe13\uD83E\uDD22",
+
+
+  "return_password": "Qwe123",
+  "return_password_fail_symbol": "Qwe13\uD83E\uDD22",
+
+  "surname": "Иванов",
+  "surname_fail_symbol": "Иванов~",
+  "surname_fail_language": "Иванов",
+
+  "name": "Иван",
+  "name_fail_symbol": "Иван!",
+  "name_fail_language": "Ivan",
+
+  "patronymic": "Иванович",
+  "patronymic_fail_symbol": "Ивано@#вич",
+  "patronymic_fail_language": "Ivanovich"
 }
