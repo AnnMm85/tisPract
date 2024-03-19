@@ -34,7 +34,7 @@
 
 
 
-  "login_fail_duplicate": "test",
+  "login_fail_duplicate": "testerStudent",
   "email_fail_dublicate": "test@gmail.com",
 
   "login_fail_emoji": "unictest\uD83E\uDD22",
