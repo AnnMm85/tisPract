@@ -43,6 +43,9 @@
   "name_fail_emoji": "Иван\uD83E\uDD22",
   "patronymic_fail_emoji": "Иванович\uD83E\uDD22",
 
+  "login_fail": "qerwik",
+  "password_fail": "QerwikKrut4",
+  "password_fail_emoji": "Qwe123\uD83E\uDD22",
 
   "login": "unictest",
   "email": "test1@gmail.com",
@@ -50,5 +53,9 @@
   "return_password": "Qwe123",
   "surname": "Иванов",
   "name": "Иван",
-  "patronymic": "Иванович"
+  "patronymic": "Иванович",
+
+  "name_want": "Повар",
+  "charge": "Готовить котлеты",
+  "claim": "Справка, что здоров"
 }
