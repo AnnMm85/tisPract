@@ -1,43 +1,54 @@
 {
   "main_url": "https://dev.profteam.su/registration",
 
+
   "login_fail_number": "test252test",
   "login_fail_symbol": "test!!",
   "login_fail_whitespace": "test test",
-  "login_fail_language": "вован",
-  "login_fail_duplicate": "test",
-  "login": "unictest",
 
-  "email": "test1@gmail.com",
-  "email_fail_dublicate": "test@gmail.com",
   "email_fail_NoDogSymbol": "test11Gmail.com",
   "email_fail_pointStart": ".test11@gmail.com",
   "email_fail_pointFinish": "test11@gmail.com.",
-  "email_fail_language": "пользователь11@gmail.ком",
   "email_fail_withoutName": "@gmail.com.",
   "email_fail_morePoint": "test11@gmail...com.",
   "email_fail_moreDogSymbol": "tes@ttt@gmail.com.",
   "email_fail_symbol": "test1@gma+il.com.",
 
-
-  "password": "Qwe123",
   "password_fail_lower": "qwe123",
   "password_fail_upper": "QWE123",
-  "password_fail_symbol": "Qwe13\uD83E\uDD22",
+  "password_fail_symbol": "Qw e 134",
 
+  "return_password_fail_NoReturn": "Qwe11113",
 
-  "return_password": "Qwe123",
-  "return_password_fail_symbol": "Qwe13\uD83E\uDD22",
-
-  "surname": "Иванов",
   "surname_fail_symbol": "Иванов~",
-  "surname_fail_language": "Иванов",
-
-  "name": "Иван",
   "name_fail_symbol": "Иван!",
-  "name_fail_language": "Ivan",
-
-  "patronymic": "Иванович",
   "patronymic_fail_symbol": "Ивано@#вич",
-  "patronymic_fail_language": "Ivanovich"
+
+
+  "login_fail_language": "вован",
+  "email_fail_language": "пользователь11@gmail.ком",
+  "password_fail_language": "Qweйцу11",
+  "surname_fail_language": "Ivanov",
+  "name_fail_language": "Ivan",
+  "patronymic_fail_language": "Ivanovich",
+
+
+
+  "login_fail_duplicate": "test",
+  "email_fail_dublicate": "test@gmail.com",
+
+  "login_fail_emoji": "unictest\uD83E\uDD22",
+  "email_fail_emoji": "test1@gmail.com\uD83E\uDD22",
+  "surname_fail_emoji": "Иванов\uD83E\uDD22",
+  "name_fail_emoji": "Иван\uD83E\uDD22",
+  "patronymic_fail_emoji": "Иванович\uD83E\uDD22",
+
+
+  "login": "unictest",
+  "email": "test1@gmail.com",
+  "password": "Qwe123",
+  "return_password": "Qwe123",
+  "surname": "Иванов",
+  "name": "Иван",
+  "patronymic": "Иванович"
 }
